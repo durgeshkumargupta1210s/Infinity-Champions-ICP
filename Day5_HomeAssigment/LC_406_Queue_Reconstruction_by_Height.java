@@ -29,7 +29,7 @@ public class LC_406_Queue_Reconstruction_by_Height {
         // - Since taller people are already placed, inserting at index k ensures the k constraint
         for (int[] arr : people) {
             int height = arr[0]; // person's height (not strictly needed here, just for clarity)
-            int k = arr[1];      // number of people taller-or-equal in front
+            int k = arr[1];        // number of people taller-or-equal in front
             list.add(k, arr);    // insert person at position k
         }
 
