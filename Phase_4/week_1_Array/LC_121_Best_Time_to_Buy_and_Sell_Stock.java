@@ -1,5 +1,7 @@
 package week_1;
-import java.util.*;
+
+import java.util.Scanner;
+
 public class LC_121_Best_Time_to_Buy_and_Sell_Stock {
 
 	public static void main(String[] args) {
@@ -30,4 +32,4 @@ public class LC_121_Best_Time_to_Buy_and_Sell_Stock {
 		System.out.println(ans);
 	}
 
-}
+	}
